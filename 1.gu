@@ -1,0 +1,11 @@
+# сумма до 10
+Prog NameProgram :
+new sum = 0
+new k = 0
+while (k <= 10)
+{
+    sum = sum + k
+    k = k + 1
+}
+
+out >> sum

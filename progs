@@ -1,0 +1,74 @@
+# сумма до 10
+Prog NameProgram :
+new sum = 0
+new k = 0
+while (k <= 10)
+{
+    sum = sum + k
+    k = k + 1
+}
+
+out >> sum
+
+
+# сумма
+Prog proga :
+new sum = 0
+new N = 10
+new i = 1
+new k
+while (i <= N)
+{
+    k = 1/i
+    sum = sum + k
+    i = i + 1
+}
+
+out >> sum
+
+# зп
+Prog NameProgram :
+new t = 18
+new zp = 0
+
+if (t < 5) {
+    zp = 130
+}
+else {
+    if (t < 15) {
+        zp = 180
+    }
+    else { zp = 180 + (t - 15) * 10 }
+}
+
+out >> zp
+
+
+
+
+
+
+Prog NameProgram :
+new a = 1+1
+in << a
+a1 = 1
+new Perem = 4
+if (Perem == 2) {a = 1} else {a = 4}
+if (Perem == 2) {a = 1}
+in << a1
+# куча комментов
+new Perem = a1 - 1 + (5 * 5.33) # це коммент
+new ffff = [111, 4444, 444]
+while (Perem > 2)
+{
+    if (Perem == 100)
+        { Perem = 7*Perem - 2 }
+    else
+    {
+        Perem = Perem - 10
+        Perem = 45
+    }
+    out >> Perem
+}
+
+out >> Perem
